@@ -1,0 +1,79 @@
+.error-wrapper {
+	overflow: hidden;
+	height: 100vh;
+	max-height: 100vh;
+	display: flex;
+	align-items: center;
+	background: var(--introduction-background-color);
+	border-bottom: var(--header-border-color);
+	.error-container {
+		margin: 0 auto;
+		width: 1400px;
+		padding: 0 5% 0% 5%;
+
+		display: flex;
+		justify-content: center;
+		align-content: center;
+		flex-direction: row;
+
+		.text-container {
+			display: flex;
+			flex-direction: column;
+			text-align: center;
+			justify-content: center;
+			align-items: center;
+		}
+		h1,
+		i {
+			color: var(--introduction-head-color);
+		}
+		p {
+			color: var(--introduction-secondary-color);
+			font-size: 20px;
+		}
+	}
+}
+
+.terminal {
+	position: absolute;
+	top: 20vh;
+	padding: 1% 1% 1% 1%;
+	width: 40vw;
+	height: 25vw;
+	background: var(--terminal-background);
+	box-shadow: 0px 0.208vw 2.083vw rgba(0, 0, 0, 0.25);
+	border-radius: 0.26vw;
+	font-family: "Lucida Console", monospace !important;
+	font-size: 18px;
+}
+.terminal p {
+	color: var(--terminal-text-color) !important;
+}
+
+.control-btn {
+	margin-bottom: 5%;
+}
+.typed-cursor {
+	opacity: 1;
+}
+.typed-cursor.typed-cursor--blink {
+	animation: typedjsBlink 0.7s infinite !important;
+	-webkit-animation: typedjsBlink 0.7s infinite !important;
+	animation: typedjsBlink 0.7s infinite !important;
+}
+@keyframes typedjsBlink {
+	50% {
+		opacity: 0;
+	}
+}
+@-webkit-keyframes typedjsBlink {
+	0% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}

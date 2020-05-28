@@ -1,0 +1,93 @@
+.designs-wrapper {
+	background-color: var(--introduction-background-color);
+	border-bottom: var(--border-color);
+	width: 100%;
+}
+
+.designs-container {
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	z-index: 100;
+}
+
+.designs {
+	//overflow: hidden;
+	margin: 0 auto;
+	width: 1400px;
+	padding: 5% 5% 0% 5%;
+
+	h1 {
+		font-family: "Circular Std Medium";
+		font-size: 35px;
+		font-weight: 500;
+		color: var(--introduction-head-color);
+	}
+}
+
+.designs-title {
+	display: flex;
+	justify-content: space-between;
+}
+
+.designs-grid {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	a {
+		text-decoration: none;
+		color: inherit;
+	}
+}
+
+.design {
+	padding: 7% 0% 7% 0%;
+	width: 350px;
+	display: flex;
+	flex-direction: column;
+	img {
+		height: 250px;
+		width: 350px;
+		border-radius: 10px;
+		box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.05);
+	}
+	h1 {
+		padding-top: 5%;
+		font-weight: 300;
+		font-size: 30px;
+	}
+	p {
+		font-weight: 450;
+		font-size: 20px;
+		color: var(--introduction-secondary-color);
+	}
+}
+
+.designs-grid:hover .design:not(:hover) {
+	opacity: 0.5;
+	filter: grayscale(2);
+}
+
+.design:hover .design:not(:hover) {
+	opacity: 1;
+	filter: none;
+}
+
+.dribbble-button {
+	font-size: 20px;
+	font-family: "Circular Std Book";
+	display: inline-flex;
+	text-decoration: none !important;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	color: white;
+	background-color: var(--dribbble-color);
+	border-radius: 10px;
+	padding: 0 10px 0 10px;
+	box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.05);
+}
+
+.dribbble-button:hover {
+	background-color: #ff76ab;
+}

@@ -1,0 +1,22 @@
+@media only screen and (max-width: 1000px) {
+	.technologies-wrapper {
+		h1 {
+			text-align: center;
+			width: 80%;
+			font-size: calc(25px + 6 * ((100vw - 320px) / 680)) !important;
+		}
+	}
+	.stacks-wrapper {
+		width: 100vw !important;
+	}
+	.stack-container {
+		margin: 2% !important;
+	}
+	p {
+		margin-top: 4%;
+		font-size: calc(16px + 6 * ((100vw - 320px) / 680)) !important;
+	}
+	span::before {
+		font-size: calc(30px + 6 * ((100vw - 320px) / 680)) !important;
+	}
+}

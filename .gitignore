@@ -1,0 +1,5 @@
+.vercel
+.firebase
+/node_modules
+.firebaserc
+/dist

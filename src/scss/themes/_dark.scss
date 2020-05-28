@@ -1,0 +1,51 @@
+html[data-theme="dark"] {
+	// generic
+
+	--blue-color: #2a84dd;
+	--blue-lighter: #ddeeff;
+	--border-color: 2px solid #3c3f42;
+
+	// header
+	--header-color: #1e2226;
+	--header-border-color: 1px solid #3c3f42;
+	--header-background-color: #1e2226;
+	--naviguation-list-color: #f4f6f8;
+
+	// introduction section
+	--introduction-background-color: #161718;
+	--introduction-head-color: #f4f6f8;
+	--introduction-secondary-color: #d8d8d8;
+	--introduction-learn-more-background-color: #f4f6f8;
+	--introduction-learn-more-color: #000000;
+	--introduction-border-color: #3c3f42;
+
+	// tech stacks
+	--stack-background: #1e2226;
+	--stack-logo-color: #f4f6f8;
+	--stack-name-color: #999999;
+
+	// projects
+	--coming-soon-background-color: #292f35;
+	--coming-soon-color: #c5c5c5;
+	--project-background: #292f35;
+	--projects-background: #24292e;
+	--project-text: #f4f6f8;
+	--project-border: 2px solid #c5c5c5;
+
+	// designs
+	--designs-background: #2b3036;
+
+	// scrollbar
+
+	svg #smokie {
+		fill: white !important;
+	}
+	.illustration {
+		stroke: white;
+	}
+
+	--dribbble-color: #c12360;
+
+	--terminal-background: #ffffff;
+	--terminal-text-color: #000;
+}

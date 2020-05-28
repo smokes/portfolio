@@ -1,0 +1,71 @@
+.technologies-wrapper {
+	background-color: var(--stack-background);
+	overflow: hidden;
+}
+
+.technologies-container {
+	margin: 0 auto;
+	padding: 5% 5% 0% 5%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	border-bottom: var(--border-color);
+
+	h1 {
+		text-align: center;
+		font-family: "Circular Std Medium";
+		font-size: 35px;
+		font-weight: 500;
+		color: var(--introduction-head-color);
+	}
+
+	.stacks-wrapper {
+		padding-top: 2%;
+		padding-bottom: 2%;
+		display: inline-flex;
+		flex-direction: row;
+		justify-content: center;
+		width: auto;
+	}
+	.stack-container {
+		font-family: "Circular Std Book";
+		font-size: 25px;
+		color: var(--stack-name-color);
+	}
+	.stack-container {
+		margin: 12%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		p {
+			margin-top: 20px;
+		}
+		span::before {
+			font-size: 70px;
+			color: var(--stack-logo-color);
+			display: inline-flex;
+		}
+		[class^="icon"]:hover:before {
+			transition: all 0.3s ease-in;
+		}
+		[class^="icon"]::before {
+			transition: all 0.2s ease-in;
+		}
+		.icon-node-js:hover:before {
+			color: #7fc728;
+		}
+		.icon-react:hover:before {
+			color: #5ed4f4;
+		}
+		.icon-typescript:hover:before {
+			color: #0099ff;
+		}
+		.icon-python:hover:before {
+			color: #f4d34a;
+		}
+		.icon-html5:hover:before {
+			color: #e34c26;
+		}
+	}
+}

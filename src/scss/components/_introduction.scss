@@ -1,0 +1,72 @@
+.introduction-wrapper {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	background: var(--introduction-background-color);
+	border-bottom: var(--header-border-color);
+}
+
+.introduction-container {
+	margin: 0 auto;
+	width: 1400px;
+	padding: 0 5% 0% 5%;
+
+	display: flex;
+	flex-direction: row;
+
+	svg {
+		max-width: 100%;
+		width: 50%;
+		height: auto;
+	}
+}
+
+.introduction-text {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	h1 {
+		color: var(--introduction-head-color);
+		font-family: "Circular Std Bold";
+		font-size: 50px;
+	}
+	p {
+		width: 80%;
+		color: var(--introduction-secondary-color);
+		padding-top: 2%;
+		font-family: "Circular Std Book";
+		font-size: 25px;
+	}
+}
+
+.introduction-buttons {
+	margin-top: 5%;
+	a {
+		appearance: button;
+		text-decoration: none;
+	}
+	#email {
+		color: white;
+		background-color: var(--blue-color);
+		font-size: 22px;
+		padding: 10px 20px 10px 20px;
+		border-radius: 10px;
+		font-family: "Circular Std Book";
+		margin-right: 1%;
+		border: none;
+		letter-spacing: -0.04em;
+	}
+
+	#learn_more {
+		letter-spacing: -0.04em;
+		border: none;
+		color: var(--introduction-learn-more-color);
+		background-color: var(--introduction-learn-more-background-color);
+		font-size: 22px;
+		padding: 10px 20px 10px 20px;
+		border-radius: 10px;
+		font-family: "Circular Std Book";
+	}
+}

@@ -1,0 +1,21 @@
+// Components
+@import "./components/base";
+@import "./components/header";
+@import "./components/introduction";
+@import "./components/technologies";
+@import "./components/projects";
+@import "./components/scrollbar";
+@import "./components/footer";
+@import "./components/designs";
+@import "./components/error";
+
+// Breakpoints
+@import "./breakpoints/br_introduction";
+@import "./breakpoints/br_technologies";
+@import "./breakpoints/br_projects";
+@import "./breakpoints/br_designs";
+@import "./breakpoints/br_error";
+
+// Light and Dark Theme
+@import "./themes/dark";
+@import "./themes/light";

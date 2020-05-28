@@ -1,0 +1,40 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	font-family: "Circular Std Book";
+	-webkit-font-smoothing: antialiased;
+	letter-spacing: -0.05em;
+	-webkit-backface-visibility: hidden;
+	-webkit-perspective: 1000;
+	scroll-behavior: smooth;
+}
+body {
+	-webkit-transform: translateZ(0px);
+}
+
+html.transition,
+html.transition *,
+html.transition *:before,
+html.transition *:after {
+	transition: all 750ms;
+	transition-delay: 0;
+}
+
+@font-face {
+	font-family: "Circular Std Book";
+	src: url("https://s3.smokie.media/CircularStd-Book.woff");
+}
+
+@font-face {
+	font-family: "Circular Std Medium";
+	src: url("https://s3.smokie.media/CircularStd-Medium.woff");
+}
+@font-face {
+	font-family: "Circular Std Bold";
+	src: url("https://s3.smokie.media/CircularStd-Bold.woff");
+}
+@font-face {
+	font-family: "Circular Std Black";
+	src: url("https://s3.smokie.media/CircularStd-Black.woff");
+}

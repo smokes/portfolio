@@ -1,0 +1,103 @@
+.projects-wrapper {
+	background-color: var(--projects-background);
+	border-bottom: var(--border-color);
+
+	width: 100%;
+}
+
+.projects-container {
+	display: flex;
+	align-items: center;
+	z-index: 100;
+
+	.projects {
+		overflow: hidden;
+		margin: 0 auto;
+		width: 1400px;
+		padding: 5% 5% 0% 5%;
+
+		h1 {
+			font-family: "Circular Std Medium";
+			font-size: 35px;
+			font-weight: 500;
+			color: var(--introduction-head-color);
+		}
+
+		.project {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			font-size: 20px;
+			font-family: "Circular Std Book";
+			color: var(--coming-soon-color);
+			width: auto;
+			min-width: 300px;
+			max-width: 500px;
+			min-height: 200px;
+			background: var(--coming-soon-background-color);
+			border: 1px solid rgba(117, 127, 160, 0.5);
+			box-sizing: border-box;
+			box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.04);
+			border-radius: 10px;
+			margin-top: 3%;
+			margin-bottom: 5%;
+			margin-left: auto;
+		}
+		.project:first-child {
+			margin-left: 0;
+		}
+		.projects-group {
+			display: flex;
+			flex-direction: row;
+			align-self: center;
+			justify-content: center;
+		}
+		.active {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			p {
+				padding: 4%;
+				text-align: center;
+				font-family: "Circular Std Book";
+				font-weight: 100;
+				font-size: 18px;
+				width: 80%;
+			}
+			span::before {
+				color: var(--stack-logo-color);
+				font-size: 50px;
+			}
+			.icon-node-js {
+				margin-top: 2.5%;
+			}
+			a {
+				display: inline-flex;
+				justify-content: center;
+				align-items: center;
+				align-content: center;
+				color: var(--stack-logo-color);
+				text-decoration: none;
+			}
+			a:hover {
+				transition: all ease-in 0.2s;
+				color: var(--coming-soon-color);
+			}
+		}
+		.project-title {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			padding: 4%;
+			width: 100%;
+			border-bottom: 1px solid rgba(117, 127, 160, 0.5);
+			margin-bottom: 4%;
+			text-align: left;
+			h1 {
+				font-family: "Circular Std Book";
+				font-weight: 100;
+				font-size: 20px;
+			}
+		}
+	}
+}

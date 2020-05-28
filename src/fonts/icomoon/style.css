@@ -1,0 +1,68 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?nqm2yf');
+  src:  url('fonts/icomoon.eot?nqm2yf#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?nqm2yf') format('truetype'),
+    url('fonts/icomoon.woff?nqm2yf') format('woff'),
+    url('fonts/icomoon.svg?nqm2yf#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-brightness-up:before {
+  content: "\e908";
+}
+.icon-python:before {
+  content: "\e906";
+  color: #3776ab;
+}
+.icon-css3:before {
+  content: "\e907";
+  color: #1572b6;
+}
+.icon-html5:before {
+  content: "\e905";
+  color: #e34f26;
+}
+.icon-javascript:before {
+  content: "\e904";
+  color: #f7df1e;
+}
+.icon-react:before {
+  content: "\e903";
+  color: #61dafb;
+}
+.icon-node-js:before {
+  content: "\e902";
+  color: #393;
+}
+.icon-typescript:before {
+  content: "\e901";
+  color: #007acc;
+}
+.icon-go:before {
+  content: "\e900";
+  color: #00add8;
+}
+.icon-html-five:before {
+  content: "\eae4";
+}
+.icon-css31:before {
+  content: "\eae6";
+}

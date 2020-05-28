@@ -1,0 +1,38 @@
+@media only screen and (max-width: 1000px) {
+	.projects-group {
+		flex-direction: column !important;
+	}
+	.projects {
+		margin: 25px 0 40px 0 !important;
+		h1 {
+			font-size: calc(24px + 6 * ((100vw - 320px) / 680)) !important;
+		}
+		overflow: hidden !important;
+	}
+	.title-container {
+		display: flex;
+		justify-content: center;
+	}
+	.project-title {
+		h1 {
+			text-align: center;
+			font-size: calc(18px + 6 * ((100vw - 320px) / 680)) !important;
+		}
+		padding: 2% !important;
+	}
+	.active p {
+		margin: 0 !important;
+		font-size: calc(16px + 6 * ((100vw - 320px) / 680)) !important;
+	}
+	.project {
+		max-width: none !important;
+		width: 100% !important;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	.project {
+		overflow: hidden !important;
+		min-width: 100px !important;
+	}
+}

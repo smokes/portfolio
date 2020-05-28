@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Smokie</title>
+		<meta name="title" content="Smokie | Fullstack Developer & Designer" />
+		<meta
+			name="description"
+			content="A curious developer passionate about new and exciting technologies."
+		/>
+		<meta
+			name="keywords"
+			content="smokie,fullstack,developer,designer,ui,javascript,nodejs,html,css,smokiee"
+		/>
+		<meta name="robots" content="index, follow" />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://smokie.wtf/" />
+		<meta
+			property="og:title"
+			content="Smokie | Fullstack Developer & Designer"
+		/>
+		<meta
+			property="og:description"
+			content="A curious developer passionate about new and exciting technologies."
+		/>
+		<meta property="og:image" content="https://s3.smokie.media/FtQ2QR.png" />
+		<meta property="twitter:card" content="summary_large_image" />
+		<meta property="twitter:url" content="https://smokie.wtf/" />
+		<meta
+			property="twitter:title"
+			content="Smokie | Fullstack Developer & Designer"
+		/>
+		<meta
+			property="twitter:description"
+			content="A curious developer passionate about new and exciting technologies."
+		/>
+		<meta
+			property="twitter:image"
+			content="https://s3.smokie.media/FtQ2QR.png"
+		/>
+		<meta name="theme-color" content="#000" />
+		<meta name="msapplication-navbutton-color" content="#000" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="#000" />
+		<link
+			rel="android-chrome-icon"
+			sizes="180x180"
+			href="meta/android-chrome-512x512.png"
+		/>
+		<link
+			rel="android-chrome-icon"
+			sizes="180x180"
+			href="meta/android-chrome-192x192.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="180x180"
+			href="meta/apple-touch-icon.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="meta/favicon-32x32.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="16x16"
+			href="meta/favicon-16x16.png"
+		/>
+		<link rel="manifest" href="meta/site.webmanifest" />
+
+		<link rel="stylesheet" href="css/index.css" />
+		<link rel="stylesheet" href="fonts/icomoon/style.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+		/>
+		<script type="text/javascript" src="js/index.js"></script>
+	</head>
+	<body>
+		<div class="header-wrapper">
+			<div class="header-container">
+				<header>
+					<svg
+						viewBox="0 0 298 71"
+						fill="none"
+						xmlns="http://www.w3.org/2000/svg"
+						xmlns:xlink="http://www.w3.org/1999/xlink"
+					>
+						<path d="M0 70.9H70V0.899999H0V70.9Z" fill="url(#pattern0)" />
+						<path
+							id="smokie"
+							d="M83.7249 56.41L91.7049 54.66C91.7983 56.1533 92.3816 57.4133 93.4549 58.44C94.5749 59.42 96.0916 59.91 98.0049 59.91C99.4516 59.91 100.572 59.5833 101.365 58.93C102.158 58.2767 102.555 57.46 102.555 56.48C102.555 54.7533 101.318 53.6333 98.8449 53.12L94.2949 52.07C91.0749 51.37 88.6483 50.11 87.0149 48.29C85.4283 46.47 84.6349 44.3 84.6349 41.78C84.6349 38.6533 85.8483 35.9933 88.2749 33.8C90.7483 31.6067 93.8283 30.51 97.5149 30.51C99.8483 30.51 101.902 30.86 103.675 31.56C105.448 32.2133 106.825 33.0767 107.805 34.15C108.785 35.1767 109.532 36.2267 110.045 37.3C110.558 38.3733 110.885 39.4233 111.025 40.45L103.255 42.2C103.068 40.9867 102.508 39.9133 101.575 38.98C100.688 38.0467 99.3583 37.58 97.5849 37.58C96.3716 37.58 95.3216 37.9067 94.4349 38.56C93.5949 39.2133 93.1749 40.03 93.1749 41.01C93.1749 42.69 94.2249 43.7167 96.3249 44.09L101.225 45.14C104.538 45.84 107.058 47.1233 108.785 48.99C110.558 50.8567 111.445 53.0967 111.445 55.71C111.445 58.79 110.278 61.45 107.945 63.69C105.612 65.93 102.322 67.05 98.0749 67.05C95.6483 67.05 93.4783 66.7 91.5649 66C89.6516 65.2533 88.1583 64.32 87.0849 63.2C86.0583 62.0333 85.2649 60.89 84.7049 59.77C84.1916 58.6033 83.8649 57.4833 83.7249 56.41ZM125.441 66H116.131V31.56H125.021V35.76C125.907 34.1733 127.307 32.9133 129.221 31.98C131.134 31.0467 133.094 30.58 135.101 30.58C140.094 30.58 143.501 32.4933 145.321 36.32C147.794 32.4933 151.434 30.58 156.241 30.58C159.741 30.58 162.681 31.6767 165.061 33.87C167.487 36.0633 168.701 39.33 168.701 43.67V66H159.671V45.56C159.671 43.6 159.157 42.0367 158.131 40.87C157.151 39.6567 155.634 39.05 153.581 39.05C151.667 39.05 150.127 39.7033 148.961 41.01C147.794 42.3167 147.211 43.9267 147.211 45.84V66H137.971V45.56C137.971 43.6 137.457 42.0367 136.431 40.87C135.404 39.6567 133.887 39.05 131.881 39.05C129.921 39.05 128.357 39.7033 127.191 41.01C126.024 42.27 125.441 43.88 125.441 45.84V66ZM184.573 55.99C186.299 57.7167 188.376 58.58 190.803 58.58C193.229 58.58 195.283 57.7167 196.963 55.99C198.689 54.2633 199.553 51.86 199.553 48.78C199.553 45.7 198.689 43.2967 196.963 41.57C195.283 39.8433 193.229 38.98 190.803 38.98C188.376 38.98 186.299 39.8433 184.573 41.57C182.893 43.2967 182.053 45.7 182.053 48.78C182.053 51.86 182.893 54.2633 184.573 55.99ZM177.853 35.69C181.306 32.2367 185.623 30.51 190.803 30.51C195.983 30.51 200.276 32.2367 203.683 35.69C207.136 39.1433 208.863 43.5067 208.863 48.78C208.863 54.0533 207.136 58.4167 203.683 61.87C200.276 65.3233 195.983 67.05 190.803 67.05C185.623 67.05 181.306 65.3233 177.853 61.87C174.446 58.4167 172.743 54.0533 172.743 48.78C172.743 43.5067 174.446 39.1433 177.853 35.69ZM246.801 31.56L233.011 46.05L247.081 66H235.671L226.571 52.84L222.721 56.9V66H213.411V15.32H222.721V44.37L234.621 31.56H246.801ZM259.023 66H249.713V31.56H259.023V66ZM248.593 20.29C248.593 18.7033 249.153 17.35 250.273 16.23C251.393 15.0633 252.746 14.48 254.333 14.48C255.92 14.48 257.273 15.04 258.393 16.16C259.513 17.28 260.073 18.6567 260.073 20.29C260.073 21.83 259.513 23.16 258.393 24.28C257.273 25.4 255.92 25.96 254.333 25.96C252.746 25.96 251.393 25.4 250.273 24.28C249.153 23.16 248.593 21.83 248.593 20.29ZM272.98 44.86H288.38C288.287 42.9467 287.587 41.3367 286.28 40.03C285.02 38.7233 283.154 38.07 280.68 38.07C278.44 38.07 276.62 38.77 275.22 40.17C273.82 41.57 273.074 43.1333 272.98 44.86ZM289.29 53.82L297.06 56.13C296.127 59.3033 294.284 61.9167 291.53 63.97C288.824 66.0233 285.44 67.05 281.38 67.05C276.434 67.05 272.234 65.3933 268.78 62.08C265.327 58.72 263.6 54.24 263.6 48.64C263.6 43.32 265.28 38.98 268.64 35.62C272 32.2133 275.967 30.51 280.54 30.51C285.86 30.51 290.014 32.0967 293 35.27C296.034 38.4433 297.55 42.8067 297.55 48.36C297.55 48.7333 297.527 49.1533 297.48 49.62C297.48 50.0867 297.48 50.46 297.48 50.74L297.41 51.23H272.77C272.864 53.47 273.75 55.3367 275.43 56.83C277.11 58.3233 279.117 59.07 281.45 59.07C285.417 59.07 288.03 57.32 289.29 53.82Z"
+							fill="black"
+						/>
+						<defs>
+							<pattern
+								id="pattern0"
+								patternContentUnits="objectBoundingBox"
+								width="1"
+								height="1"
+							>
+								<use xlink:href="#image0" transform="scale(0.015625)" />
+							</pattern>
+							<image
+								id="image0"
+								width="64"
+								height="64"
+								xlink:href="data:image/png;base64,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"
+							/>
+						</defs>
+					</svg>
+
+					<ul>
+						<li><a href="#projects">projects</a></li>
+						<li><a href="mailto:contact@smokie.wtf">contact</a></li>
+						<li>
+							<button
+								title="Change Theme"
+								id="themer"
+								onclick="themerHandler()"
+							>
+								<i global="fab fa-moon"></i>
+							</button>
+						</li>
+					</ul>
+				</header>
+			</div>
+		</div>
+		<div>
+			<div class="introduction-wrapper">
+				<div class="introduction-container">
+					<div class="introduction-text">
+						<h1>I’m smokie, a fullstack developer and designer</h1>
+						<p>
+							I am a curious developer passionate about new and exciting
+							technologies. I started my career as a graphic designer and
+							gradually moved on to web development. I strive to bring new and
+							challenging ideas to the world, even if they tend to be difficult.
+						</p>
+						<div class="introduction-buttons">
+							<a href="mailto:contact@smokie.wtf" id="email"
+								>Send me an email</a
+							>
+							<a href="#projects" id="learn_more">Learn more</a>
+						</div>
+					</div>
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						fill="none"
+						viewBox="0.5 41.040008544921875 812.1400146484375 609.4599609375"
+					>
+						<path
+							class="illustration"
+							d="m175.77 74.756-118.67 202.69m118.67-202.69 117.02 202.69m-117.02-202.69v135.5m-118.67 67.197 118.67 68.298m-118.67-68.298 118.67-67.197m0 135.5 117.02-68.298m-117.02 68.298v-135.5m117.02 67.197-117.02-67.197"
+							stroke="#000"
+						></path>
+						<g filter="url(#e)">
+							<circle
+								class="illustration"
+								cx="176.26"
+								cy="216.8"
+								r="175.76"
+								stroke="#000"
+							></circle>
+						</g>
+						<g filter="url(#d)">
+							<circle
+								class="illustration"
+								cx="676.18"
+								cy="514.04"
+								r="136.46"
+								stroke="#000"
+							></circle>
+						</g>
+						<path
+							class="illustration"
+							d="m574.67 458.18 101.68-59.941 99.789 59.938v114.25l-99.789 56.192-101.68-56.195v-114.25z"
+							stroke="#000"
+						></path>
+						<g filter="url(#c)">
+							<path
+								d="m646.64 533.53c0 5.911-4.777 10.689-10.688 10.689h-265.26c-5.911 0-10.688-4.778-10.688-10.689v-313.84c0-5.911 4.777-10.688 10.688-10.688h265.26c5.911 0 10.688 4.777 10.688 10.688v313.84z"
+								fill="#52A7FC"
+							></path>
+						</g>
+						<path
+							d="m645.83 219.28v19.676h-285.83v-19.676c0-5.911 4.696-10.283 10.607-10.283h265.02c5.83 0 10.202 4.372 10.202 10.283z"
+							fill="#3D4D58"
+						></path>
+						<path
+							d="m425.75 231.02c3.89 0 7.044-2.864 7.044-6.397 0-3.532-3.154-6.396-7.044-6.396-3.891 0-7.045 2.864-7.045 6.396 0 3.533 3.154 6.397 7.045 6.397z"
+							fill="#F4F6F8"
+						></path>
+						<path
+							d="m403.32 231.02c3.891 0 7.044-2.864 7.044-6.397 0-3.532-3.153-6.396-7.044-6.396s-7.045 2.864-7.045 6.396c0 3.533 3.154 6.397 7.045 6.397z"
+							fill="#F4F6F8"
+						></path>
+						<path
+							d="m378.7 231.02c3.89 0 7.044-2.864 7.044-6.397 0-3.532-3.154-6.396-7.044-6.396-3.891 0-7.045 2.864-7.045 6.396 0 3.533 3.154 6.397 7.045 6.397z"
+							fill="#F4F6F8"
+						></path>
+						<path
+							d="m631.5 224.47c0-2.996-1.863-5.426-4.13-5.426h-175.46c-2.267 0-4.13 2.43-4.13 5.426 0 2.995 1.863 5.425 4.13 5.425h175.46c2.267 0 4.13-2.43 4.13-5.425z"
+							fill="#F4F6F8"
+						></path>
+						<path
+							d="m621.54 259.2h-236.44v99.595h236.44v-99.595z"
+							fill="#F4F6F8"
+						></path>
+						<path
+							d="m538.06 383.09h56.842c5.182 0 5.182-8.098 0-8.098h-56.842c-5.264 0-5.264 8.098 0 8.098z"
+							fill="#F4F6F8"
+						></path>
+						<path
+							d="m453.85 383.09h66.153c5.182 0 5.182-8.098 0-8.098h-66.153c-5.263 0-5.263 8.098 0 8.098z"
+							fill="#F4F6F8"
+						></path>
+						<path
+							d="m576.44 400.58h41.296c5.182 0 5.182-8.097 0-8.097h-41.296c-5.182 0-5.182 8.097 0 8.097z"
+							fill="#F4F6F8"
+						></path>
+						<path
+							d="m495.71 400.58h62.348c5.183 0 5.183-8.097 0-8.097h-62.348c-5.263 0-5.263 8.097 0 8.097z"
+							fill="#F4F6F8"
+						></path>
+						<path
+							d="m453.85 400.58h23.805c5.182 0 5.182-8.097 0-8.097h-23.805c-5.263 0-5.263 8.097 0 8.097z"
+							fill="#F4F6F8"
+						></path>
+						<path
+							d="m536.6 417.99h81.134c5.182 0 5.182-8.097 0-8.097h-81.134c-5.182 0-5.182 8.097 0 8.097z"
+							fill="#F4F6F8"
+						></path>
+						<path
+							d="m486.23 417.99h32.308c5.182 0 5.182-8.097 0-8.097h-32.308c-5.182 0-5.182 8.097 0 8.097z"
+							fill="#F4F6F8"
+						></path>
+						<path
+							d="m588.5 435.4h29.231c5.182 0 5.182-8.097 0-8.097h-29.231c-5.263 0-5.263 8.097 0 8.097z"
+							fill="#F4F6F8"
+						></path>
+						<path
+							d="m453.85 435.4h116.68c5.182 0 5.182-8.097 0-8.097h-116.68c-5.263 0-5.263 8.097 0 8.097z"
+							fill="#F4F6F8"
+						></path>
+						<path
+							d="m533.52 500.66h-56.842c-5.182 0-5.182 8.097 0 8.097h56.842c5.182 0 5.182-8.097 0-8.097z"
+							fill="#F4F6F8"
+						></path>
+						<path
+							d="m617.73 500.66h-66.154c-5.182 0-5.182 8.097 0 8.097h66.154c5.182 0 5.182-8.097 0-8.097z"
+							fill="#F4F6F8"
+						></path>
+						<path
+							d="m495.06 483.25h-41.295c-5.182 0-5.182 8.097 0 8.097h41.295c5.263 0 5.263-8.097 0-8.097z"
+							fill="#F4F6F8"
+						></path>
+						<path
+							d="m575.87 483.25h-62.348c-5.182 0-5.182 8.097 0 8.097h62.348c5.182 0 5.182-8.097 0-8.097z"
+							fill="#F4F6F8"
+						></path>
+						<path
+							d="m617.73 483.25h-23.806c-5.182 0-5.182 8.097 0 8.097h23.806c5.182 0 5.182-8.097 0-8.097z"
+							fill="#F4F6F8"
+						></path>
+						<path
+							d="m534.98 465.76h-81.134c-5.182 0-5.182 8.097 0 8.097h81.134c5.182 0 5.182-8.097 0-8.097z"
+							fill="#F4F6F8"
+						></path>
+						<path
+							d="m585.26 465.76h-32.308c-5.182 0-5.182 8.097 0 8.097h32.308c5.263 0 5.263-8.097 0-8.097z"
+							fill="#F4F6F8"
+						></path>
+						<path
+							d="m483.08 448.35h-29.231c-5.182 0-5.182 8.097 0 8.097h29.231c5.182 0 5.182-8.097 0-8.097z"
+							fill="#F4F6F8"
+						></path>
+						<path
+							d="m617.73 448.35h-116.68c-5.182 0-5.182 8.097 0 8.097h116.68c5.182 0 5.182-8.097 0-8.097z"
+							fill="#F4F6F8"
+						></path>
+						<g filter="url(#b)">
+							<path
+								d="m512.11 464.61c0 5.911-4.777 10.688-10.688 10.688h-265.26c-5.911 0-10.688-4.777-10.688-10.688v-313.84c0-5.911 4.777-10.688 10.688-10.688h265.26c5.911 0 10.688 4.777 10.688 10.688v313.84z"
+								fill="#3E4040"
+							></path>
+						</g>
+						<g filter="url(#a)">
+							<path
+								d="m511.3 150.36v19.676h-285.83v-19.676c0-5.911 4.696-10.283 10.607-10.283h265.02c5.83 0 10.203 4.372 10.203 10.283z"
+								fill="#BAC7C8"
+								fill-opacity=".01"
+							></path>
+						</g>
+						<path
+							d="m291.22 162.1c3.89 0 7.044-2.864 7.044-6.397s-3.154-6.397-7.044-6.397c-3.891 0-7.045 2.864-7.045 6.397s3.154 6.397 7.045 6.397z"
+							fill="#F4F6F8"
+						></path>
+						<path
+							d="m268.79 162.1c3.89 0 7.044-2.864 7.044-6.397s-3.154-6.397-7.044-6.397c-3.891 0-7.045 2.864-7.045 6.397s3.154 6.397 7.045 6.397z"
+							fill="#F4F6F8"
+						></path>
+						<path
+							d="m244.18 162.1c3.891 0 7.045-2.864 7.045-6.397s-3.154-6.397-7.045-6.397c-3.89 0-7.044 2.864-7.044 6.397s3.154 6.397 7.044 6.397z"
+							fill="#F4F6F8"
+						></path>
+						<path
+							d="m496.97 155.55c0-2.996-1.862-5.425-4.129-5.425h-175.46c-2.268 0-4.13 2.429-4.13 5.425s1.862 5.425 4.13 5.425h175.46c2.267 0 4.129-2.429 4.129-5.425z"
+							fill="#F4F6F8"
+						></path>
+						<path
+							d="m487.01 190.28h-236.44v99.595h236.44v-99.595z"
+							fill="#F4F6F8"
+						></path>
+						<path
+							d="m338.92 314.33h56.842c5.182 0 5.182-8.097 0-8.097h-56.842c-5.263 0-5.263 8.097 0 8.097z"
+							fill="#fff"
+						></path>
+						<path
+							d="m254.71 314.33h66.154c5.182 0 5.182-8.097 0-8.097h-66.154c-5.263 0-5.263 8.097 0 8.097z"
+							fill="#fff"
+						></path>
+						<path
+							d="m377.3 331.82h41.296c5.182 0 5.182-8.097 0-8.097h-41.296c-5.182 0-5.182 8.097 0 8.097z"
+							fill="#fff"
+						></path>
+						<path
+							d="m296.57 331.82h62.348c5.183 0 5.183-8.097 0-8.097h-62.348c-5.263 0-5.263 8.097 0 8.097z"
+							fill="#fff"
+						></path>
+						<path
+							d="m254.7 331.82h23.805c5.182 0 5.182-8.097 0-8.097h-23.805c-5.263 0-5.263 8.097 0 8.097z"
+							fill="#fff"
+						></path>
+						<path
+							d="m337.46 349.23h81.133c5.182 0 5.182-8.097 0-8.097h-81.133c-5.182 0-5.182 8.097 0 8.097z"
+							fill="#fff"
+						></path>
+						<path
+							d="m287.09 349.23h32.308c5.182 0 5.182-8.097 0-8.097h-32.308c-5.182 0-5.182 8.097 0 8.097z"
+							fill="#fff"
+						></path>
+						<path
+							d="m389.36 366.64h29.231c5.182 0 5.182-8.098 0-8.098h-29.231c-5.263 0-5.263 8.098 0 8.098z"
+							fill="#fff"
+						></path>
+						<path
+							d="m254.7 366.64h116.68c5.182 0 5.182-8.098 0-8.098h-116.68c-5.263 0-5.263 8.098 0 8.098z"
+							fill="#fff"
+						></path>
+						<path
+							d="m334.38 431.9h-56.842c-5.183 0-5.183 8.097 0 8.097h56.842c5.182 0 5.182-8.097 0-8.097z"
+							fill="#fff"
+						></path>
+						<path
+							d="m418.59 431.9h-66.154c-5.182 0-5.182 8.097 0 8.097h66.154c5.182 0 5.182-8.097 0-8.097z"
+							fill="#fff"
+						></path>
+						<path
+							d="m295.92 414.49h-41.295c-5.182 0-5.182 8.097 0 8.097h41.295c5.263 0 5.263-8.097 0-8.097z"
+							fill="#fff"
+						></path>
+						<path
+							d="m376.73 414.49h-62.348c-5.183 0-5.183 8.097 0 8.097h62.348c5.182 0 5.182-8.097 0-8.097z"
+							fill="#fff"
+						></path>
+						<path
+							d="m418.59 414.49h-23.806c-5.182 0-5.182 8.097 0 8.097h23.806c5.182 0 5.182-8.097 0-8.097z"
+							fill="#fff"
+						></path>
+						<path
+							d="m335.84 397h-81.133c-5.182 0-5.182 8.097 0 8.097h81.133c5.183 0 5.183-8.097 0-8.097z"
+							fill="#fff"
+						></path>
+						<path
+							d="m386.12 397h-32.307c-5.182 0-5.182 8.097 0 8.097h32.307c5.264 0 5.264-8.097 0-8.097z"
+							fill="#fff"
+						></path>
+						<path
+							d="m283.94 379.59h-29.231c-5.182 0-5.182 8.097 0 8.097h29.231c5.182 0 5.182-8.097 0-8.097z"
+							fill="#fff"
+						></path>
+						<path
+							d="m418.59 379.59h-116.68c-5.182 0-5.182 8.097 0 8.097h116.68c5.182 0 5.182-8.097 0-8.097z"
+							fill="#fff"
+						></path>
+						<defs>
+							<filter
+								id="e"
+								x="-40"
+								y=".53396"
+								width="432.52"
+								height="432.52"
+								color-interpolation-filters="sRGB"
+								filterUnits="userSpaceOnUse"
+							>
+								<feFlood
+									flood-opacity="0"
+									result="BackgroundImageFix"
+								></feFlood>
+								<feGaussianBlur
+									in="BackgroundImage"
+									stdDeviation="20"
+								></feGaussianBlur>
+								<feComposite
+									in2="SourceAlpha"
+									operator="in"
+									result="effect1_backgroundBlur"
+								></feComposite>
+								<feBlend
+									in="SourceGraphic"
+									in2="effect1_backgroundBlur"
+									result="shape"
+								></feBlend>
+							</filter>
+							<filter
+								id="d"
+								x="499.22"
+								y="337.09"
+								width="353.91"
+								height="353.91"
+								color-interpolation-filters="sRGB"
+								filterUnits="userSpaceOnUse"
+							>
+								<feFlood
+									flood-opacity="0"
+									result="BackgroundImageFix"
+								></feFlood>
+								<feGaussianBlur
+									in="BackgroundImage"
+									stdDeviation="20"
+								></feGaussianBlur>
+								<feComposite
+									in2="SourceAlpha"
+									operator="in"
+									result="effect1_backgroundBlur"
+								></feComposite>
+								<feBlend
+									in="SourceGraphic"
+									in2="effect1_backgroundBlur"
+									result="shape"
+								></feBlend>
+							</filter>
+							<filter
+								id="c"
+								x="320"
+								y="169"
+								width="366.64"
+								height="415.22"
+								color-interpolation-filters="sRGB"
+								filterUnits="userSpaceOnUse"
+							>
+								<feFlood
+									flood-opacity="0"
+									result="BackgroundImageFix"
+								></feFlood>
+								<feGaussianBlur
+									in="BackgroundImage"
+									stdDeviation="20"
+								></feGaussianBlur>
+								<feComposite
+									in2="SourceAlpha"
+									operator="in"
+									result="effect1_backgroundBlur"
+								></feComposite>
+								<feBlend
+									in="SourceGraphic"
+									in2="effect1_backgroundBlur"
+									result="shape"
+								></feBlend>
+							</filter>
+							<filter
+								id="b"
+								x="125.48"
+								y="40.08"
+								width="486.64"
+								height="535.22"
+								color-interpolation-filters="sRGB"
+								filterUnits="userSpaceOnUse"
+							>
+								<feFlood
+									flood-opacity="0"
+									result="BackgroundImageFix"
+								></feFlood>
+								<feGaussianBlur
+									in="BackgroundImage"
+									stdDeviation="50"
+								></feGaussianBlur>
+								<feComposite
+									in2="SourceAlpha"
+									operator="in"
+									result="effect1_backgroundBlur"
+								></feComposite>
+								<feBlend
+									in="SourceGraphic"
+									in2="effect1_backgroundBlur"
+									result="shape"
+								></feBlend>
+							</filter>
+							<filter
+								id="a"
+								x="185.48"
+								y="100.08"
+								width="365.83"
+								height="109.96"
+								color-interpolation-filters="sRGB"
+								filterUnits="userSpaceOnUse"
+							>
+								<feFlood
+									flood-opacity="0"
+									result="BackgroundImageFix"
+								></feFlood>
+								<feGaussianBlur
+									in="BackgroundImage"
+									stdDeviation="20"
+								></feGaussianBlur>
+								<feComposite
+									in2="SourceAlpha"
+									operator="in"
+									result="effect1_backgroundBlur"
+								></feComposite>
+								<feBlend
+									in="SourceGraphic"
+									in2="effect1_backgroundBlur"
+									result="shape"
+								></feBlend>
+							</filter>
+						</defs>
+					</svg>
+				</div>
+			</div>
+			<div class="technologies-wrapper">
+				<div class="technologies-container">
+					<h1>
+						Technologies I’m comfortable with &nbsp;<i
+							global="fas fa-layer-group"
+						></i>
+					</h1>
+					<div class="stacks-wrapper">
+						<div class="stack-container">
+							<span global="icon-html5"></span>
+							<p>HTML</p>
+						</div>
+						<div class="stack-container">
+							<span global="icon-python"></span>
+							<p>Python</p>
+						</div>
+						<div class="stack-container">
+							<span global="icon-typescript"></span>
+							<p>Typescript</p>
+						</div>
+						<div class="stack-container">
+							<span global="icon-react"></span>
+
+							<p>React.js</p>
+						</div>
+						<div class="stack-container">
+							<span global="icon-node-js"></span>
+
+							<p>Node.js</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="projects" class="projects-wrapper">
+			<div class="projects-container">
+				<div class="projects">
+					<div class="title-container">
+						<h1>Projects &nbsp;<i global="fas fa-briefcase"></i></h1>
+					</div>
+					<div class="projects-group">
+						<div class="project active">
+							<div class="project-title">
+								<h1>Bookmarks Manager</h1>
+								<a
+									target="_blank"
+									rel="noopener noreferrer"
+									href="https://dribbble.com/shots/11544572-Bookmark-Managment-App"
+									global="fas fa-plus"
+								></a>
+							</div>
+							<span global="fab fa-chrome"></span>
+							<p>
+								One place for all of your bookmarks, encrypted with AES-265 and
+								stored locally. It's similar to a password manager but for URLS.
+							</p>
+						</div>
+						<div class="project">Coming soon</div>
+						<div class="project">Coming soon</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="designs-wrapper">
+			<div class="designs-container">
+				<div class="designs">
+					<div class="designs-title">
+						<h1>Recent Designs &nbsp;<i global="fas fa-pen-nib"></i></h1>
+						<a
+							target="_blank"
+							rel="noopener noreferrer"
+							class="dribbble-button"
+							href="https://dribbble.com/smokiee"
+							>See More On Dribbble&nbsp;&nbsp;
+							<i global="fab fa-dribbble"></i>
+						</a>
+					</div>
+					<div class="designs-grid">
+						<div class="design">
+							<a
+								target="_blank"
+								rel="noopener noreferrer"
+								href="https://dribbble.com/shots/11544572-Bookmark-Managment-App"
+							>
+								<img src="img/bookmark-managment-app.png" alt="" />
+								<h1>Bookmarks Manager</h1>
+								<p>A concept for a bookmark management browser extension.</p>
+							</a>
+						</div>
+						<div class="design">
+							<a
+								target="_blank"
+								rel="noopener noreferrer"
+								href="https://dribbble.com/shots/9839300-Community-Instant-Messaging-Application"
+							>
+								<img src="img/community-messaging-app.png" alt="" />
+								<h1>Messaging Application</h1>
+								<p>
+									A instant messaging desktop application inspired by Discord
+									and Slack.
+								</p>
+							</a>
+						</div>
+						<div class="design">
+							<a
+								target="_blank"
+								rel="noopener noreferrer"
+								href="https://dribbble.com/shots/5843701-Planet-Dribbble"
+							>
+								<img src="img/debut-shot.png" alt="" />
+								<h1>Debut Shot</h1>
+								<p>
+									My very first Dribbble shot! Special thanks to @imfunny for
+									the invite
+								</p>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer-wrapper">
+			<div class="footer-container">
+				<footer>
+					<p>Copyright © 2020 Smokie. All rights reserved.</p>
+					<ul class="social-icons">
+						<li>
+							<a
+								target="_blank"
+								rel="noopener noreferrer"
+								href="https://github.com/smokes"
+								global="fab fa-github"
+							></a>
+						</li>
+						<li>
+							<a
+								target="_blank"
+								rel="noopener noreferrer"
+								href="https://dribbble.com/smokiee"
+								global="fab fa-dribbble"
+							></a>
+						</li>
+						<li>
+							<a
+								target="_blank"
+								rel="noopener noreferrer"
+								href="https://dev.to/smokie"
+								global="fab fa-dev"
+							></a>
+						</li>
+						<li>
+							<a
+								target="_blank"
+								rel="noopener noreferrer"
+								href="https://discord.com"
+								global="fab fa-discord"
+							></a>
+						</li>
+
+						<li>
+							<a
+								target="_blank"
+								rel="noopener noreferrer"
+								href="https://twitter.com/smvkie"
+								global="fab fa-twitter"
+							></a>
+						</li>
+					</ul>
+				</footer>
+			</div>
+		</div>
+	</body>
+</html>

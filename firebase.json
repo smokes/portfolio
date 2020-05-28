@@ -1,0 +1,11 @@
+{
+	"hosting": {
+		"public": "dist",
+		"ignore": [
+			"firebase.json",
+			"dist/rev-manifest.json",
+			"index.css.json",
+			"**/node_modules/**"
+		]
+	}
+}
