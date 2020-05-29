@@ -1,0 +1,25 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/node:latest
+    working_directory: ~/portfolio
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+            - v1-dependencies-{{ checksum "package.json" }}
+            - v1-dependencies-
+      - run:
+          name: Install Dependencies
+          command: npm install
+      - save_cache:
+          key: v1-npm-deps-{{ checksum "package-lock.json" }}
+          paths:
+            - ./node_modules
+      - run:
+          name: Build
+          command: npm build
+      - run:
+          name: Firebase Deploy
+          command: ./node_modules/.bin/firebase use --token "$FIREBASE_TOKEN" "$FIREBASE_PROJECT"  && ./node_modules/.bin/firebase deploy --token "$FIREBASE_TOKEN" --only hosting
