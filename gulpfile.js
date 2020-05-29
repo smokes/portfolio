@@ -113,4 +113,4 @@ gulp.task("img", () => {
 		.pipe(gulp.dest("./dist/img"));
 });
 
-gulp.task("all", gulp.series("css", "js", "img", "fonts", "meta", "html"));
+gulp.task("build", gulp.series("css", "js", "img", "fonts", "meta", "html"));

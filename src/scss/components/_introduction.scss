@@ -48,6 +48,7 @@
 		text-decoration: none;
 	}
 	#email {
+		-webkit-appearance: none;
 		color: white;
 		background-color: var(--blue-color);
 		font-size: 22px;
@@ -60,6 +61,8 @@
 	}
 
 	#learn_more {
+		-webkit-appearance: none;
+
 		letter-spacing: -0.04em;
 		border: none;
 		color: var(--introduction-learn-more-color);

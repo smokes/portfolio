@@ -4,6 +4,8 @@
 	"description": "My developer portfolio",
 	"main": "index.js",
 	"scripts": {
+		"deploy": "gulp build && firebase deploy",
+		"build": "gulp build",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"keywords": [
